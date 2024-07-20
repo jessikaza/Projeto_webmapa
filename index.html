@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Web Mapa Jessika Zambrano</title>
+  <meta name="Author" content="Jessika Zambrano" />
+  <meta name="description" content="Construção do webmapa, da dosciplina topicos especiais 1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" 
+    href="https://www.prppg.ufpr.br/site/ppggeografia/wp-content/uploads/sites/71/2023/05/posgraduacao.png" 
+    type="image/x-icon" />
+    <link rel="stylesheet" href="./meu-arquivo-css.css" />
+  <script src="./conflitos.js"></script>
+  <script src="./centroides.js.js"></script>
+  <script src="./favelas.js"></script>
+  <!--script type="module" src="./main.js"></script-->
+  <script type="module" crossorigin src="./assets/index-C5tKjRgR.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BR5W0fqz.css">
+</head>
+
+<body>
+  <div id="map"></div>
+
+
+  <header id="cabecalho-principal">
+    <section>
+      <img src="./assets/globo-jrcSVkK5.png" alt="globo">
+    </section>
+    <nav>
+      <a href="#home">Introdução</a>
+      <a href="#map1">Mapa Coropletico</a>
+      <a href="#map2">Mapa de Simbolos Pontuais Proporcionais</a>
+      <a href="#map3">Mapa de Calor</a>
+    </nav>
+
+  </header>
+  <main>
+    <article id="home">
+      <section id="Introdução_disciplina">
+        <h2>Disciplina: Introdução a Construção de mapas tematicos no ambiente web</h2>
+        <p>Os web mapas são ferramentas online que permitem visualizar,
+          explorar e analisar informações geográficas de maneira interativa.
+          Eles são utilizados para navegação e direcionamento, planejamento urbano,
+          monitoramento ambiental, tomada de decisões em diversos setores, como agricultura,
+          segurança e transporte, e para facilitar a educação e a pesquisa em áreas relacionadas
+          à geografia e ciências afins.</p>
+      </section>
+      <section id="topicos_abordados">
+        <ul>
+          <li>Revisão sobre cartografia</li>
+          <li>mapas tematicos</li>
+          <li>Geoserviçõs</li>
+          <li>Html</li>
+          <li>Css</li>
+          <li>Javascript</li>
+          <li>Biblioteca de mapas</li>
+        </ul>
+      </section>
+      <aside id="referencias">
+        <h2>Referências</h2>
+        <ul>
+          <li>https://openlayers.org/</li>
+          <li>https://developer.mozilla.org/es/docs/Web/HTML</li>
+        </ul>
+      </aside>
+    </article>
+
+    <section id="map1" class="container_mapa">
+      <div id="mapa1"></div>
+      <section id="descricao_coropletico">
+        <h3> Descrição do Mapa</h3>
+        <table>
+          <tr>
+            <td>Tipo de Representaçao</td>
+            <td>Método Coroplético</td>
+          </tr>
+          <tr>
+           <td>Método de Classificação</td>
+           <td>Jenks</td>
+          </tr>
+          <tr>
+            <td>Tema</td>
+            <td>Conflictor rurais</td>
+            
+          </tr>
+        </table>
+      </section>
+    </section>
+
+    <section id="map2" class="container_mapa">
+      <div id="mapa2"></div>
+      <section id="descricao_simbolos">
+        <h3> Descrição do Mapa</h3>
+        <table>
+          <tr>
+            <td>Método de Representacão</td>
+            <td>Simbolos pontuais proporcionais</td>
+          </tr>
+          <tr>
+            <td>Método de Classificação</td>
+            <td>Método não classificados</td>
+          </tr>
+          <tr>
+            <td>Tema</td>
+            <td>Conflictos rurais</td>
+          </tr> 
+        </table>
+      </section>
+    </section>
+
+    <section id="map3" class="container_mapa">
+      <div id="mapa3"></div>
+      <section id="descricao_calor">
+        <h3> Descrição do Mapa</h3>
+        <table>
+          <tr>
+            <td>Método de Representacão</td>
+            <td>Mapa de calor</td>
+          </tr>
+          <tr>
+            <td>Tema</td>
+            <td>Favelas</td>
+          </tr>
+          <tr>
+            <td>Tamanho de raios</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Valor de blur</td>
+            <td>30</td>
+          </tr>
+        </table>
+      </section>
+    </section>
+  </main>
+
+  <footer id="rodape_principal">
+    <address>
+      Desenvolvido por Jessika Zambrano
+      Email:<a href="mailto:jessika88271@gmail.com">jessika88271@gmail.com</a>
+    </address>
+  </footer>
+
+  <script src="meu-arquivo-js.js"></script>
+</body>
+
+</html>
